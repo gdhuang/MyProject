@@ -7,4 +7,14 @@
  * in the user manual at https://docs.gradle.org/6.0/userguide/multi_project_builds.html
  */
 
+pluginManagement {
+    plugins {
+    }
+    resolutionStrategy {
+    }
+    repositories {
+        mavenLocal()
+    }
+}
+
 rootProject.name = 'MyProject'
